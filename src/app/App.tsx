@@ -1,18 +1,19 @@
 import { useState, useEffect } from "react";
-import { 
-  Scissors, 
-  Clock, 
-  MapPin, 
-  Star, 
-  Phone, 
-  Menu, 
+import {
+  Scissors,
+  Clock,
+  MapPin,
+  Star,
+  Phone,
+  Menu,
   X,
   Instagram,
-  ChevronRight
+  ChevronRight,
 } from "lucide-react";
-import { Button } from "@/app/components/ui/button";
-import { Card } from "@/app/components/ui/card";
-import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
+
+import { Button } from "./components/ui/button";
+import { Card } from "./components/ui/card";
+import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
